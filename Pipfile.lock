@@ -1,0 +1,41 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "308557fe4c0a8047524ff25998a2ad9f55e934e054039c97f992991083193e46"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            },
+            {
+                "name": "fury",
+                "url": "https://${FURY_AUTH}:@pypi.fury.io/edkrueger/",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "gazpacho": {
+            "hashes": [
+                "sha256:1579c1be2de05b5ded0a97107b179d12491392fb095aeab185b283ea48cd7010"
+            ],
+            "index": "pypi",
+            "version": "==1.1"
+        },
+        "poetrypackagetemplate": {
+            "hashes": [
+                "sha256:18db5bcf005373b07007fd95f118d9ca6a71a4b36f5c98348718b414c9ff9849",
+                "sha256:d841b03fb805ae2275efd13a04474505a6067ccf0105eb2a8f2a2b9eb6c8f6d0"
+            ],
+            "index": "fury",
+            "version": "==0.1.0"
+        }
+    },
+    "develop": {}
+}

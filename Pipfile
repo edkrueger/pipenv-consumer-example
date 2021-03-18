@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "fury"
+url = "https://${PYPI_AUTH}:@pypi.fury.io/edkrueger/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+gazpacho = "*"
+poetrypackagetemplate = { version = "*", index = "fury" }
+
+[requires]
+python_version = "3.7"
