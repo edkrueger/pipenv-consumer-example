@@ -1,6 +1,8 @@
 # pipenv-consumer-example
 How to install a package from a private PyPI server (Gemfury)
 
+To see how to push a (Poetry) package to a private PyPI repository see: https://github.com/edkrueger/poetry-package-template.  
+
 ## Pulling from Private PyPI
 
 ### Environmental Variables
